@@ -10,3 +10,4 @@ RUN git clone https://github.com/OpenVPN/easy-rsa.git
 WORKDIR /opt/easy-rsa
 RUN git pull origin master --tags
 RUN git checkout 3.0.1
+WORKDIR /opt/easy-rsa/easyrsa3
